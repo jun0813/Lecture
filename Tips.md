@@ -18,3 +18,17 @@ a:after {
 
 * 특정 엘리먼트 앞/뒤에 원하는 컨텐츠를 추가할 수 있다. 
 * [참고자료 : http://www.slideshare.net/yakuyaku/ss-34832795](http://www.slideshare.net/yakuyaku/ss-34832795)
+
+
+## box-shadow
+
+```
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+```
+
+* 특정 엘리먼트에 shadow 효과 부여. 
+* [참고자료 : http://css-tricks.com/snippets/css/css-box-shadow/](http://css-tricks.com/snippets/css/css-box-shadow/)
