@@ -28,4 +28,6 @@ Default Shortcut 기준
 
 # Emmet 단축키 모음
 
-[사이트](http://docs.emmet.io/cheat-sheet/)
+[단축키 문서](http://docs.emmet.io/cheat-sheet/)
+
+![](http://cfile24.uf.tistory.com/image/14795C4250A220DC297888)
