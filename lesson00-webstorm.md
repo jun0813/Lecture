@@ -30,4 +30,4 @@ Default Shortcut 기준
 
 [단축키 문서](http://docs.emmet.io/cheat-sheet/)
 
-![](http://cfile24.uf.tistory.com/image/14795C4250A220DC297888)
+![](https://raw.githubusercontent.com/k2amj2ik/Lecture/master/images/thumb_emmet.png)
