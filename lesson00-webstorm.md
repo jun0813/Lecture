@@ -7,7 +7,7 @@ Default Shortcut 기준
 * `ctrl + O` : 파일 오픈 short cut이 지정되어있지 않아서, 임의로 이걸로 변경했음.
 * `ctrl + -` / `ctrl + =` : 블럭 접기 / 펴기
 * `ctrl + Shift + -` / `ctrl + Shift + =` : 문서 전체 접기 / 펴기
-* `ctrl + alt + insert` : column 편집 모드 toggle
+* `alt + Shift + Insert` : column 편집 모드 toggle
 
 
 ## 소스 정리 관련
