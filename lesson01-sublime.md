@@ -131,37 +131,3 @@ git명령어를 sublime에서 사용할 수 있게 해준다. command palette에
 
 ### HTML-CSS-JS Prettify
 html, css를 보기 좋게 들여쓰기과 줄바꿈을 해준다. html, css파일에서  command palette를 열고 `prettify`를 입력하고 `HTMLPrettify`를 선택하면 된다.
-
-
-
-
-# WebStorm 단축키 (추가 메모)
-Default Shortcut 기준
-
-## Editing
-* `ctrl + [` or `ctrl + ]` : 블럭의 처음과 끝으로 이동.
-* `ctrl + D` / `ctrl + Y` : 한줄 복사 / 삭제
-* `ctrl + O` : 파일 오픈 short cut이 지정되어있지 않아서, 임의로 이걸로 변경했음.
-* `ctrl + -` / `ctrl + =` : 블럭 접기 / 펴기
-* `ctrl + shift + -` / `ctrl + shift + =` : 문서 전체 접기 / 펴기
-* `ctrl + alt + insert` : column 편집 모드 toggle
-
-
-## 소스 정리 관련
-* `ctrl + shift + J` : 쓸데없는 공백 삭제.
-
-
-## WS Tool 기능 관련
-* `ctrl + shift + F` : 전체 경로에서 text 검색
-* `Alt + Back Quote` : VCS Operations 팝업 띄움.
-* `recent project > Delete-key` : 프로젝트 삭제 도대체 어디서 하는지 몰라서 한참 헤맸음!!!!
-
-
-## Git 관련
-* `ctrl + K` : Commit to Github
-* `ctrl + shift + K` : Push to Github (WebStorm에서는 커밋대신 커밋&푸시~ 하는게 더 깔끔하게 history 관리가 됨)
-
-
-# Emmet 단축키 모음
-
-[사이트](http://docs.emmet.io/cheat-sheet/)
