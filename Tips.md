@@ -27,6 +27,7 @@ body{font-family:ng}
 
 
 #### 웹폰트에 대한 이해
+* [CSS3 @font-face Rule](http://www.w3schools.com/cssref/css3_pr_font-face_rule.asp)
 * [웹 폰트 문제 해결. @font-face troubleshooting. src:local(※)설명 포함](http://naradesign.net/wp/2012/06/19/1830/)
 * [[CSS] 웹폰트 적용하는 방법](http://www.freezner.com/archives/215)
 * [@font-face 로 한글폰트 맑은고딕 적용하기](http://www.1efthander.com/fontface-malgungothic-apply/)
