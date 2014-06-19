@@ -16,7 +16,7 @@ body{font-family:나눔고딕, NanumGothic, ng}
 #### IE9 이상 지원 시
 ```
 @font-face {
-        font-family: "ng";
+        font-family: ng;
         src: url(/fonts/NanumGothic.woff);
 }
 body{font-family:ng}
