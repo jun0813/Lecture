@@ -15,11 +15,11 @@ body{font-family:나눔고딕, NanumGothic, ng}
 ```
 #### IE9 이상 지원 시
 ```
-@font-face{
-    font-family:"ng";
-    url('/fonts/NanumGothic.woff') format('woff')
+@font-face {
+        font-family: "ng";
+        src: url(/fonts/NanumGothic.woff);
 }
-body{font-family:나눔고딕, NanumGothic, ng}
+body{font-family:ng}
 ```
                                              
 * 서버의 웹폰트를 다운로드 받게설정하는 방법. 첫 다운로드시 로딩 속도 문제가 발생. 
