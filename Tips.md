@@ -67,6 +67,8 @@ box-sizing: border-box;
 
 ## box-shadow
 
+### 브라우저 호환을 고려해야 한다면...
+
 ```
 .shadow {
   -moz-box-shadow:    3px 3px 5px 6px #ccc;
@@ -75,5 +77,22 @@ box-sizing: border-box;
 }
 ```
 
+### IE9이상...
+
+```
+box-shadow: 0 1px 2px rgba(0,0,0,0.075);
+  
+```
+
 * 특정 엘리먼트에 shadow 효과 부여. 
-* [참고자료 : http://css-tricks.com/snippets/css/css-box-shadow/](http://css-tricks.com/snippets/css/css-box-shadow/)
+* 값 순서 : inset여부, 너비horizontal,  높이vertical, 블러blur, 퍼짐spread distance, 색상color
+* 콤마로 구분하여 입력하면 여러 shadow 적용 가능
+* [참고자료 : http://www.slideshare.net/headvoy/css3-boxshadow](http://www.slideshare.net/headvoy/css3-boxshadow)
+
+
+## CSS Selector
+
+![이미지](images/selector1.png)
+![이미지](images/selector2.png)
+
+* [CSS 선택자(Selector)의 종류 및 간단한 효과주기](http://www.clearboth.org/css3_1_by_isdn386/)
