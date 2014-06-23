@@ -19,7 +19,7 @@ Default Shortcut 기준
 * `Alt + Back Quote` : VCS Operations 팝업 띄움.
 * `recent project > Delete-key` : 프로젝트 삭제 도대체 어디서 하는지 몰라서 한참 헤맸음!!!!
 * `Editor-Tap에서 우크릭 > split ...` : 화면 분할. mark down 문서는 text 하나, preview 하나 분할해놓고 편집하니깐 편함!  
-
+* `영역선택 + Ctrl + Alt + I` :  전체 들여쓰기 자동 정리. 
 
 ## Git 관련
 * `ctrl + Alt + A` : Add to Git
