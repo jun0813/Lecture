@@ -1,4 +1,4 @@
-# AngularJS 개발환경설정
+# 개발환경설정
 
 ## 1. JDK 설치
 
@@ -36,3 +36,10 @@ apache-maven-3.2.1 압축 풀고, 폴더를 C드라이브 아래 바로 붙여�
 
 * command에서 `mvn clean DskipTests install` 입력하여 실행해보면 됨.
 * 지금 우리 프로젝트는.. 최초 빌드 한 30분 걸림;;; 
+
+
+# 가이드 작성 관련 설정
+
+## Publican 설치
+  
+* [퍼블리칸 설치](https://fedorahosted.org/publican/)
