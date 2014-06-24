@@ -37,6 +37,18 @@ apache-maven-3.2.1 압축 풀고, 폴더를 C드라이브 아래 바로 붙여�
 * command에서 `mvn clean DskipTests install` 입력하여 실행해보면 됨.
 * 지금 우리 프로젝트는.. 최초 빌드 한 30분 걸림;;; 
 
+## 3. node.js 설치
+
+### 다운로드 & 설치
+* [최신버전 다운로드 : `install` 클릭 ](http://www.nodejs.org/)
+
+### 설치 확인
+* command에서 `node` 입력하여 실행해보면 됨.
+
+## 4. Cygwin 설치
+* [Cygwin 이란?](http://mwultong.blogspot.com/2006/07/cygwin-cygwin.html)
+* [최신버전 다운로드](https://cygwin.com/install.html) 
+
 
 # 가이드 작성 관련 설정
 
