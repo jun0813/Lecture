@@ -49,6 +49,13 @@ apache-maven-3.2.1 압축 풀고, 폴더를 C드라이브 아래 바로 붙여�
 * [Cygwin 이란?](http://mwultong.blogspot.com/2006/07/cygwin-cygwin.html)
 * [최신버전 다운로드](https://cygwin.com/install.html) 
 
+## 5. 앤답 설치하기
+* webapp만 로컬에서 구현할꺼라서, core 붙을 곳을 설정해둬야함. 
+* 클라우드 vm으로 하나 설정했음.  ( [lia04](http://wiki.nexrcorp.com/display/BD/Ucloud+VM+list) )
+
+### 앤답 3.1.0 설치하기                
+* [설치 가이드 참조](https://github.com/nexr/ndap-playbooks/tree/ndap-3.1)
+
 
 # 가이드 작성 관련 설정
 
