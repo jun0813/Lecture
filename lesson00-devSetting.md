@@ -45,17 +45,25 @@ apache-maven-3.2.1 압축 풀고, 폴더를 C드라이브 아래 바로 붙여�
 ### 설치 확인
 * command에서 `node` 입력하여 실행해보면 됨.
 
-## 4. Cygwin 설치
-* [Cygwin 이란?](http://mwultong.blogspot.com/2006/07/cygwin-cygwin.html)
-* [최신버전 다운로드](https://cygwin.com/install.html) 
-
-## 5. 앤답 설치하기
+## 4. 앤답 설치하기
 * webapp만 로컬에서 구현할꺼라서, core 붙을 곳을 설정해둬야함. 
 * 클라우드 vm으로 하나 설정했음.  ( [lia04](http://wiki.nexrcorp.com/display/BD/Ucloud+VM+list) )
+* mysql root 비번 기본값이 사용하던 것과 다름. (=)
 
 ### 앤답 3.1.0 설치하기                
 * [설치 가이드 참조](https://github.com/nexr/ndap-playbooks/tree/ndap-3.1)
 
+
+## 5. 로컬에 NDAP 띄우기
+1. NDAP_HOME 설정 (C:\Users\lia\Dropbox) 
+2. conf 파일들 복사해왔음. from Joe.Lim (C:\Users\lia\Dropbox\conf)
+3. $cd /cygdrive/c/Users/lia/Dropbox/00.업무관련/04.KT-NexR/00.NDAP/04.구축/ndap/ndap-webapp
+4. mvn clean tomcat7:run
+ 
+ 
+-->  html, css 변경사항이 바로 적용됨. 
+ 
+ 
 
 # 가이드 작성 관련 설정
 
