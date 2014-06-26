@@ -57,8 +57,8 @@ apache-maven-3.2.1 압축 풀고, 폴더를 C드라이브 아래 바로 붙여�
 ## 5. 로컬에 NDAP 띄우기
 1. NDAP_HOME 설정 (C:\Users\lia\Dropbox) 
 2. conf 파일들 복사해왔음. from Joe.Lim (C:\Users\lia\Dropbox\conf)
-3. $cd /cygdrive/c/Users/lia/Dropbox/00.업무관련/04.KT-NexR/00.NDAP/04.구축/ndap/ndap-webapp
-4. mvn clean tomcat7:run
+3. cygwin띄우고 ndap 입력   (=cd /cygdrive/c/Users/lia/Dropbox/00.업무관련/04.KT-NexR/00.NDAP/04.구축/ndap/ndap-webapp)
+4. mvn clean tomcat7:run 입력
  
  
 -->  html, css 변경사항이 바로 적용됨. 
