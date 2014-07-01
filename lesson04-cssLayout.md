@@ -15,16 +15,16 @@
 |		|	block	|	요소는 블록 요소 상자를 생성합니다.	|
 |		|	list-item	|	요소는 내용과 별도의 목록 항목의 인라인 박스의 블록 박스를 생성합니다.	|
 |	확장 값 (CSS 2.1)	|	inline-block	|	요소는 (많은 대체 요소 싶습니다 행동) 하나의 인라인 박스처럼 주변 내용으로 유입 될 블록 요소 상자를 생성	|
-|	테이블 모델 값 (CSS 2.1)	|	inline-table	|	inline-table 값은 HTML에 직접 매핑이 없습니다. 그것은처럼 동작<table> HTML 요소가 아니라 블록 수준 상자보다 인라인 박스, 등. 테이블 상자 안에 블록 수준 컨텍스트입니다.	|
-|		|	table	|	처럼 동작 <table> HTML 요소입니다. 그것은 블록 수준의 상자를 정의합니다.	|
-|		|	table-caption	|	처럼 동작 <caption> HTML 요소입니다.	|
-|		|	table-cell	|	처럼 동작 <td> HTML 요소	|
-|		|	table-column	|	이러한 요소는 해당처럼 행동 <col> HTML 요소.	|
-|		|	table-column-group	|	이러한 요소는 해당처럼 행동 <colgroup> HTML 요소.	|
-|		|	table-footer-group	|	이러한 요소는 해당처럼 행동 <tfoot> HTML 요소	|
-|		|	table-header-group	|	이러한 요소는 해당처럼 행동 <thead> HTML 요소	|
-|		|	table-row	|	처럼 동작 <tr> HTML 요소	|
-|		|	table-row-group	|	이러한 요소는 해당처럼 행동 <tbody> HTML 요소	|
+|	테이블 모델 값 (CSS 2.1)	|	inline-table	|	inline-table 값은 HTML에 직접 매핑이 없습니다. 그것은처럼 동작`<table>` HTML 요소가 아니라 블록 수준 상자보다 인라인 박스, 등. 테이블 상자 안에 블록 수준 컨텍스트입니다.	|
+|		|	table	|	처럼 동작 `<table>` HTML 요소입니다. 그것은 블록 수준의 상자를 정의합니다.	|
+|		|	table-caption	|	처럼 동작 `<caption>` HTML 요소입니다.	|
+|		|	table-cell	|	처럼 동작 `<td>` HTML 요소	|
+|		|	table-column	|	이러한 요소는 해당처럼 행동 `<col>` HTML 요소.	|
+|		|	table-column-group	|	이러한 요소는 해당처럼 행동 `<colgroup>` HTML 요소.	|
+|		|	table-footer-group	|	이러한 요소는 해당처럼 행동 `<tfoot>` HTML 요소	|
+|		|	table-header-group	|	이러한 요소는 해당처럼 행동 `<thead>` HTML 요소	|
+|		|	table-row	|	처럼 동작 `<tr>` HTML 요소	|
+|		|	table-row-group	|	이러한 요소는 해당처럼 행동 `<tbody>` HTML 요소	|
 |	플렉스 박스 모델 값 (CSS3 )	|	flex	|	요소는 블록 요소처럼 동작 및 플렉스 박스 모델에 따라 그 내용을 낳는다.	|
 |		|	inline-flex	|	요소는 인라인 요소처럼 동작 및 플렉스 박스 모델에 따라 그 내용을 낳는다.	|
 |	그리드 박스 모델 값 (CSS3 ) 	|	grid	|	요소는 블록 요소처럼 동작 그리드 모델에 따라 컨텐츠를 배치.	|
