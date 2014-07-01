@@ -1,7 +1,19 @@
 ## 문서 기본 검색
 * `MDN ---` 엠디엔을 붙여서 검색하면 mozila development network 사이트로 이동하는데, 여기 설명 작살임!!!!
 
-## 웹폰트 
+## SMACSS
+* Scalable and Modular Architecture for CSS
+* DOM 구조가 막~ 변경되도, 수정하기좋게 조각조각내서 CSS를 만들자!!! (front-end 개발자 & publisher의 협업을 위하여!!!)
+
+### 원본 사이트
+* [SMACSS](https://smacss.com/)
+
+### 번역본
+* [SMACSS: Brief Notes - Part 1](http://dogfeet.github.io/articles/2012/smacss.html)
+* [SMACSS: Brief Notes - Part 2](http://dogfeet.github.io/articles/2012/smacss-part2.html)
+* [SMACSS: The Icon Module](http://dogfeet.github.io/articles/2012/smacss-icon-module.html)
+
+## 웹폰트
 
 #### IE6~8 호환을 제공해야 하는 경우
 ```
