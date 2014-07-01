@@ -87,7 +87,7 @@ dom이 사라진거 처럼. `script`의 기본값임. `visibility:hidden`과 다
 }
 ```
 
-block level은 `margin: auto;`를 하면 width만큼의 폭으로 중앙 정렬을 한다. **문제는** 브라우저 폭이 wdith보다 작을 때.
+block level은 `margin~: auto;`를 하면 width만큼의 폭으로 중앙 정렬을 한다. **문제는** 브라우저 폭이 wdith보다 작을 때.
 
 
 ## max-wdith
