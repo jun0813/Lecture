@@ -53,6 +53,18 @@ apache-maven-3.2.1 압축 풀고, 폴더를 C드라이브 아래 바로 붙여�
 ### 앤답 3.1.0 설치하기                
 * [설치 가이드 참조](https://github.com/nexr/ndap-playbooks/tree/ndap-3.1)
 
+### 재설치시 (설치 가이드 상에서 제목으로 검색)
+1. "삭제"
+```
+ansible-playbook -i hosts uninstall.yml
+```
+2. "업그레이드"
+```
+ansible-playbook -i hosts upgrade.yml
+```
+3. "전체 과정" 대로 새로 설치
+* 내가 수정해놓은 설정파일이 그대로 유지됨. (hosts, var_groups 파일들..)
+
 
 ## 5. 로컬에 NDAP 띄우기
 ### 사전작업
