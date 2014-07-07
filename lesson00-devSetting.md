@@ -65,6 +65,11 @@ ansible-playbook -i hosts upgrade.yml
 3. "전체 과정" 대로 새로 설치
 * 내가 수정해놓은 설정파일이 그대로 유지됨. (hosts, var_groups 파일들..)
 
+### ACL True가 먹지 않으면....
+```
+service ndap-management restart
+```
+
 ## DB 접근권한 부여
 * "mysql" 권한부여(외부IP에서 접근가능하도록 처리)
 * 외부접근 권한이 없기때문에, ssh로 해당 서버에 접속한 후에 mysql 실행하여 외부접속 권한을 부여해야 함.
