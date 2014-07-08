@@ -53,6 +53,32 @@ apache-maven-3.2.1 압축 풀고, 폴더를 C드라이브 아래 바로 붙여�
 ### 앤답 3.1.0 설치하기                
 * [설치 가이드 참조](https://github.com/nexr/ndap-playbooks/tree/ndap-3.1)
 
+### 재설치시 (설치 가이드 상에서 제목으로 검색)
+1. "삭제"
+```
+ansible-playbook -i hosts uninstall.yml
+```
+2. "업그레이드"
+```
+ansible-playbook -i hosts upgrade.yml
+```
+3. "전체 과정" 대로 새로 설치
+* 내가 수정해놓은 설정파일이 그대로 유지됨. (hosts, var_groups 파일들..)
+
+### ACL True가 먹지 않으면....
+```
+service ndap-management restart
+```
+
+## DB 접근권한 부여
+* "mysql" 권한부여(외부IP에서 접근가능하도록 처리)
+* 외부접근 권한이 없기때문에, ssh로 해당 서버에 접속한 후에 mysql 실행하여 외부접속 권한을 부여해야 함.
+* 루트로 들어가서 앤답에 앤답처리.
+```
+mysql -u루트 -p루트비밀번호
+grant all privileges on *.* to DB아이디@'%' identified by 'DB패스워드'
+```
+
 
 ## 5. 로컬에 NDAP 띄우기
 ### 사전작업
