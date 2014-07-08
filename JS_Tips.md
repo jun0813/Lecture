@@ -4,4 +4,5 @@
 * bootstrap에서 자체 제작해 사용하는 라이브러리.
 * jquery Library 로 만들어서, 그 문법으로 되있음.
 * [affix.js](http://getbootstrap.com/javascript/#affix)
+* [적용 사례: 오른쪽에 따라다니는 메뉴~] (http://getbootstrap.com/components/)
 
