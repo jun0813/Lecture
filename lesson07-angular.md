@@ -65,7 +65,29 @@ python -m SimpleHTTPServer 8000
 - `아이템 in 컬렉션` 으로 표현. 아이템은 임의의 명칭을 아무렇게나 사용.
 - for문을 돌릴 수 있다면 `컬렉션`이라고 부른다.(js에서는...)
 
-
+```
+<li ng-repeat="todo in todos | filter:statusFilter track by $index" ng-class="{completed: todo.completed, editing: todo == editedTodo}">
+  <div class="view">
+    <input class="toggle" type="checkbox" ng-model="todo.completed">
+    <label ng-dblclick="editTodo(todo)">{{todo.title}}</label>
+    <button class="destroy" ng-click="removeTodo(todo)"></button>
+  </div>
+  <form ng-submit="doneEditing(todo)">
+    <input class="edit" ng-trim="false" ng-model="todo.title" todo-escape="revertEditing(todo)" ng-blur="doneEditing(todo)" todo-focus="todo == editedTodo">
+  </form>
+</li>
+```
+- `track by 기준값`으로 repeat 아이템 구별기준을 지정할 수 있다. (값이 완전히 동일한 경우, 아이템을 구분하지 못하는 angular 특성때문에..)
+- `filter:속성` 요렇게하면, 아이템의 값을 속성값과 비교하여 같을 때만 노출한다.
+- filter조건으로 목록 노출기준으로 변경할 수 있는데, status로 비교하여, `전체`, `완료`, `미완료` 이런식의 목록 구분이 가능해진다.
+- `ng-class`는 `class`명을 동적으로 변경하기 위해서 기본 제공되는 directive(지시자)이다. 반드시 객체`{}`를 넘겨야 한다
+ ```
+ <li ng-class="{completed: todo.completed}">
+ ```
+ - `ng-class={css클래스명:그 클래스가 적용될 조건}`
+ - todo.completed값이 true or false라서, true인 경우에만 completed 클래스가 노출된다.
+ 
+ 
 
 
 # 명칭
