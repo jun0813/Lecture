@@ -97,3 +97,80 @@ python -m SimpleHTTPServer 8000
 - function : config()
 - arguement : (요거!!)
 - property : .word
+
+
+
+
+# mock server 설정하기
+
+- [node 깔고](http://www.nodejs.org/)!!
+  --> 노드 다운로드 받아서 깔았어~~
+- [node easy mock](https://github.com/CyberAgent/node-easymock) 설치
+```
+sudo npm install -g easymock
+```
+- json 파일 만들기
+  --> 프로젝트 폴더 하위에 "mock" 폴더 하나만들고...
+  --> 명명규칙 : api명_http메서드유형.json 만든다.
+  
+- 내용은 객체로..넣는데...요거 알아서 찾아봐...
+```
+{
+    "data" : [
+        {
+            "completed": false,
+            "title": "숙제1"
+        },
+        {
+            "completed": true,
+            "title": "숙제2"
+        },
+        {
+            "completed": true,
+            "title": "숙제3"
+        }
+    ]
+}
+```
+- easymock실행 ('실행'한 폴더 위치가 api root가 됨.)
+```
+$ easymock
+```
+- 그러면... 요런 주소 사용가능... http://localhost:3000/todos 
+  --> 바로 json이 호출됨.
+
+- 위 형태는 리스트 형태구... 만약 리스트중 하나를 조회하는 형태를 하려면...
+  --> 현재파일 : mock/todos_GET.json : http://localhost:3000/todos
+  --> 추가파일 : mock/todos/123_GET.json : http://localhost:3000/todos/123
+  
+## CORS (JS 도메인 문제...) 해결하려면... config 추가 필요.
+
+- [복사할 내용](https://github.com/CyberAgent/node-easymock#configjson)
+
+# mockup api 접속하기
+
+- $resource 를 설정하고..
+  --> app.js, index.html 각각 설정. 
+```
+controller: function($scope, $resource){
+var todoApi = $resource('http://localhost:3000/todos');
+        
+```
+
+- 쓸려면 담어!
+```
+//성공했을 때..
+            function success(response){
+                $scope.todos = response.data;
+            }
+//실패했을 때..
+            function fail(reason){
+                throw reason.messsage;
+            }
+
+```
+
+- $resource를 가져와!
+```
+todoApi.get(success,fail);
+```
